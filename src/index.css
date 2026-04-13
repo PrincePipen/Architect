@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-canvas text-gray-100 antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background-color: #3498DB;
+}
+
+.react-flow__edge-path {
+  stroke: #A0AEC0;
+  stroke-width: 2;
+}
+
+/* Base scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #4A5568;
+  border-radius: 4px;
+}
