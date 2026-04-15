@@ -45,5 +45,4 @@ To test out Architect on your local machine, follow these instructions:
 
 ## 🧪 Documentation & Testing
 
-*   Code is cleanly annotated adhering to Computer Science standard JSDoc block comments.
 *   The fundamental generation abstractions operate natively in the browser on `utils/terraformGenerator.ts` without relying on back-end parsing clusters, dramatically improving system latency.
